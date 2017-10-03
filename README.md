@@ -48,3 +48,12 @@ decode:function(input)
 }
 }
 ```
+
+
+Using
+
+```JavaScript
+console.log(number64.encode(123456)); // --> "U90"
+console.log(number64.decode("U90")); // --> 123456
+```
+
